@@ -1,36 +1,39 @@
-# Mercari Price Suggestion Challenge
-A random forest regression model to suggest the right product prices for Mercari (Japan’s biggest community-powered shopping app).
-
-The contributing model consists of the following process:
- - data preprocessing with numpy and pandas 
- - feature engineering
- - Exploratory Data Analysis (EDA) with matplotlib, seaborn, and wordcloud
- - random forest model
+# [Mercari Price Suggestion Challenge](https://www.kaggle.com/c/mercari-price-suggestion-challenge)
+[Mercari](https://www.mercari.com/), Japan’s biggest community-powered shopping app, wants to offer pricing suggestions to sellers on its website, but this is tough because their sellers are enabled to put just about anything, or any bundle of things, on Mercari's marketplace. **This project takes on the challenge of product price prediction and provide a solution using a random forest regression model.**
+![alt text](https://storage.googleapis.com/kaggle-organizations/1076/thumbnail.jpg%3Fr=260)
 
 ## Build status
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![codecov](https://codecov.io/gh/yunglinchang/Mercari_pricesuggestion/branch/master/graph/badge.svg)](https://codecov.io/gh/yunglinchang/Mercari_pricesuggestion)
+
 ## Code style
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
+## Data Science Pipeline
+The contributing model consists of the following process:
+* data preprocessing with NumPy and Pandas 
+* feature engineering with text data
+* Exploratory Data Analysis (EDA) with Matplotlib, Seaborn, and wordcloud
+* Random Forest model by scikit-learn
+
+Code files:
+* MercariPriceSuggestionChallenge_DataPreprocessing.ipynb
+* MercariPriceSuggestionChallenge_EDA.ipynb
+* MercariPriceSuggestionChallenge_PredictiveModeling.ipynb
+
 ## Python Packages Used
- - pandas
- - numpy
- - matplotlib
- - seaborn
- - sklearn
- - scipy
- - wordcloud
+* Matplotlib 
+* NumPy
+* Pandas
+* SciPy
+* Seaborn
+* joblib
+* pydot
+* scikit-learn
+* time
+* wordcloud
 
 ## Credits
-This is the final project of Big Data Processing and Technologies class in 2018 Spring semester.
-
-reference:
- - https://www.kaggle.com/huguera/mercari-data-analysis
- - https://www.kaggle.com/grroverpr/random-forest-with-tuning-lb-0-52764
- - https://www.kaggle.com/shikhar1/base-random-forest-lb-532
- - https://www.kaggle.com/justjun0321/products-eda-random-forest-regressor/notebook
- - https://www.kaggle.com/luanho/random-forest-regressor-0-5-lb
- - https://www.kaggle.com/gosuddin/mercari-predictions-using-random-forest
+This is the final project of the **Big Data Processing and Technologies** course in 2018 Spring semester.
 
 ## License
 MIT License
