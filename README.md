@@ -1,6 +1,6 @@
 # [Mercari Price Suggestion Challenge](https://www.kaggle.com/c/mercari-price-suggestion-challenge)
+![alt text](https://miro.medium.com/max/1400/1*IiWBNf6c8fJT-bzMk1gh2g.jpeg)
 [Mercari](https://www.mercari.com/), Japan’s biggest community-powered shopping app, wants to offer pricing suggestions to sellers on its website, but this is tough because their sellers are enabled to put just about anything, or any bundle of things, on Mercari's marketplace. **This project takes on the challenge of product price prediction and provide a solution using a random forest regression model.**
-![alt text](https://storage.googleapis.com/kaggle-organizations/1076/thumbnail.jpg%3Fr=260)
 
 ## Build status
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![codecov](https://codecov.io/gh/yunglinchang/Mercari_pricesuggestion/branch/master/graph/badge.svg)](https://codecov.io/gh/yunglinchang/Mercari_pricesuggestion)
